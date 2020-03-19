@@ -1,0 +1,1140 @@
+LINKS / SCRIPTS{
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+}
+
+-------------------------------------------------
+HTML
+
+NEON BUTTON / SHADOWS / CARDS STYLE{
+    <!-- NEON BUTTON
+    <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Neon Button
+    </a>-->
+
+    <!-- Shadows
+    <div class="container">
+        <div class="box shadow1">Shadow 1</div>
+        <div class="box shadow2">Shadow 2</div>
+        <div class="box shadow3">Shadow 3</div>
+        <div class="box shadow4">Shadow 4</div>
+        <div class="box shadow5">Shadow 5</div>
+        <div class="box shadow6">Shadow 6</div>
+        <div class="box shadow7">Shadow 7</div>
+    </div>-->
+    <!-- Cards style
+        <div class="container">
+
+        <div class="box">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Service One</h3>
+                <p>
+                    I love this! Thanks so 
+                    much for posting. I'm implementing 
+                    it into my React blog as we speak. 
+                </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Service Two</h3>
+                <p>
+                    I love this! Thanks so 
+                    much for posting. I'm implementing 
+                    it into my React blog as we speak. 
+                </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Service Three</h3>
+                <p>
+                    I love this! Thanks so 
+                    much for posting. I'm implementing 
+                    it into my React blog as we speak. 
+                </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+    </div> -->
+}
+
+PARALLAX{
+    <header>
+        <h1>Parallax Effect</h1>
+        <p>Pure CSS // No JavaScript !</p>
+    </header>
+
+    <main>
+        <p>
+            Any tips on how to add another section of content
+            below that would scroll OVER the parallax landing page?
+            I️’m trying to create a continuous scroll style page with
+            parallax images separated by banners with text and video.
+            The problem I️m having is the content flows behind the
+            landing image. I️ thought Z-index would work but it doesn’t
+            seem to do the trick.
+        </p>
+        <p>
+            Any tips on how to add another section of content
+            below that would scroll OVER the parallax landing page?
+            I️’m trying to create a continuous scroll style page with
+            parallax images separated by banners with text and video.
+            The problem I️m having is the content flows behind the
+            landing image. I️ thought Z-index would work but it doesn’t
+            seem to do the trick.
+        </p>
+        <p>
+            Any tips on how to add another section of content
+            below that would scroll OVER the parallax landing page?
+            I️’m trying to create a continuous scroll style page with
+            parallax images separated by banners with text and video.
+            The problem I️m having is the content flows behind the
+            landing image. I️ thought Z-index would work but it doesn’t
+            seem to do the trick.
+        </p>
+    </main>
+}
+
+SHAPES{
+    <section class="one">
+        <h1>Section One</h1>
+        <div class="polygon"></div>
+    </section>
+    
+    <section class="two">
+        <h1>Section Two</h1>
+        <img class="img" src="//unsplash.it/500/300">
+    </section>
+    
+    <section class="three">
+        <h1>Section three</h1>
+        <div class="icon">:)</div>
+    </section>
+}
+
+STROCK SVG{
+    <div class="wrapper">
+
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 1323 341" style="enable-background:new 0 0 1323 341;" xml:space="preserve">
+    <g>
+        <path class="st0" d="M246.46,158.68c-12,18.67-31.47,39.87-58.4,63.6c-16.27,14.4-33,28-50.2,40.8s-31.54,21.87-43,27.2
+            c-0.8,2.93-2,5.13-3.6,6.6c-1.6,1.46-4,2.2-7.2,2.2c-2.4,0-4.14-0.47-5.2-1.4c-1.07-0.94-1.6-2.6-1.6-5c0-1.6,0.6-8.26,1.8-20
+            c1.2-11.73,1.8-25.46,1.8-41.2c0-26.66-0.4-50.8-1.2-72.4c-0.54-25.06-0.8-42.66-0.8-52.8c0-15.73,1.6-28.66,4.8-38.8
+            c2.4-6.4,6.66-9.6,12.8-9.6c2.13,0,4.06,0.4,5.8,1.2c1.73,0.8,2.6,2,2.6,3.6c-0.27,1.34-1.67,6-4.2,14c-2.54,8-3.8,15.6-3.8,22.8
+            c0,20,0.4,41.87,1.2,65.6c0.53,30.4,0.8,51.47,0.8,63.2c0,20-0.14,32-0.4,36c9.6-3.73,22.6-11.46,39-23.2
+            c16.4-11.73,30.2-22.4,41.4-32c23.2-20.8,40.13-39.46,50.8-56c10.66-16.53,16-33.73,16-51.6c0-21.6-13.54-36.4-40.6-44.4
+            c-27.07-8-62.47-12-106.2-12c-13.34,0-31.2,1.6-53.6,4.8c-4.27,0.27-10.94,1.6-20,4c-4,1.34-6.8,2-8.4,2c-2.14,0-4.2-1.73-6.2-5.2
+            c-2-3.46-3-6.93-3-10.4c0-1.33,0.94-2.6,2.8-3.8c1.87-1.2,4.8-2.06,8.8-2.6c16-2.13,29.66-3.73,41-4.8
+            c11.33-1.06,24.6-1.6,39.8-1.6c48.53,0,88.06,5.47,118.6,16.4c30.53,10.94,45.8,29.47,45.8,55.6
+            C264.46,120.28,258.46,140.02,246.46,158.68z"/>
+        <path class="st0" d="M524.06,267.48c-2.67,4.54-5.47,6.8-8.4,6.8c-2.67,0-5.2-0.46-7.6-1.4c-2.4-0.93-6-2.73-10.8-5.4
+            c-16.8-9.86-38.8-19.46-66-28.8c-12-4-26.2-8.2-42.6-12.6c-16.4-4.4-29.27-7.66-38.6-9.8l2.8,51.6c0.26,7.2,1.2,13.27,2.8,18.2
+            c1.6,4.93,2.4,8.06,2.4,9.4c0,2.93-1.47,5.4-4.4,7.4c-2.94,2-6,3-9.2,3c-4,0-6.54-2.8-7.6-8.4c0-0.54-0.34-2.94-1-7.2
+            c-0.67-4.27-1-10.26-1-18c0-5.06-0.54-15.86-1.6-32.4c-0.27-5.6-0.54-11-0.8-16.2c-0.27-5.2-0.4-9.8-0.4-13.8
+            c-0.8-0.8-1.8-1.73-3-2.8c-1.2-1.06-2.2-2.53-3-4.4c-0.8-2.4-1.47-4.93-2-7.6c-0.54-2.66-0.8-4.66-0.8-6c0-1.86,0.53-3.33,1.6-4.4
+            c1.06-1.06,2.66-2.26,4.8-3.6c-1.6-66.66-2.4-104.8-2.4-114.4c0-8.53,0.13-16.4,0.4-23.6c0.26-7.2,0.4-12,0.4-14.4
+            c-1.6,0.27-6.4,0.94-14.4,2c-8,1.07-14.4,2.14-19.2,3.2c-17.07,4-30.06,7.8-39,11.4c-8.93,3.6-17.53,7.67-25.8,12.2
+            c-2.4,1.6-4.73,2.87-7,3.8c-2.26,0.94-4.46,1.4-6.6,1.4c-2.13,0-4-1-5.6-3s-2.4-4.46-2.4-7.4c0-5.06,8.54-10.93,25.6-17.6
+            c17.07-6.66,35.6-12.13,55.6-16.4c11.2-2.4,25.46-4.46,42.8-6.2c17.33-1.73,33.46-2.6,48.4-2.6c25.6,0,47.4,2.8,65.4,8.4
+            s31.6,13.47,40.8,23.6c9.2,10.14,13.8,21.74,13.8,34.8c0,16.8-4.8,31.2-14.4,43.2c-9.6,12-22.34,22.4-38.2,31.2
+            c-15.87,8.8-37.4,18.8-64.6,30c-6.94,3.2-13.8,6.14-20.6,8.8c-6.8,2.67-11.4,4.54-13.8,5.6c0,1.6,0.13,2.8,0.4,3.6
+            c28.8,6.4,57.2,13.74,85.2,22l8.4,2.4c29.06,8.8,50.53,15.67,64.4,20.6c13.86,4.94,20.8,9,20.8,12.2
+            C528.06,259.08,526.72,262.95,524.06,267.48z M468.86,51.88c-7.74-7.46-19.4-13.53-35-18.2c-15.6-4.66-34.47-7-56.6-7
+            c-16.54,0-26.94,0.27-31.2,0.8c-0.27,1.87-0.6,6.27-1,13.2c-0.4,6.94-0.6,13.87-0.6,20.8l1.6,64l1.6,49.6
+            c2.4-0.26,7.13-1.53,14.2-3.8c7.06-2.26,13-4.46,17.8-6.6c33.86-13.6,59.13-27.26,75.8-41c16.66-13.73,25-29.53,25-47.4
+            C480.46,67.48,476.59,59.35,468.86,51.88z"/>
+        <path class="st0" d="M745.26,38.68c-7.2,4-18.47,8.27-33.8,12.8c-15.34,4.54-27.94,7.74-37.8,9.6c-15.47,2.94-31,5.27-46.6,7
+            c-15.6,1.74-25.67,2.74-30.2,3c0.26,15.47,0.66,31.4,1.2,47.8c0.53,16.4,0.93,27.67,1.2,33.8c10.4-1.33,26-3.86,46.8-7.6l15.2-2.4
+            c16.8-2.93,29.73-8.26,38.8-16c4.8-3.73,8.26-5.6,10.4-5.6c1.86,0,3.4,1,4.6,3c1.2,2,1.8,4.07,1.8,6.2c0,4.8-5.4,10.07-16.2,15.8
+            c-10.8,5.74-22.74,9.94-35.8,12.6c-10.94,2.4-23.2,4.67-36.8,6.8c-13.6,2.14-22.54,3.47-26.8,4c1.6,45.6,6.26,79.47,14,101.6
+            c7.73,2.67,15.33,4.6,22.8,5.8c7.46,1.2,17.06,1.8,28.8,1.8c11.73,0,22.93-1.53,33.6-4.6c10.66-3.06,19.26-6.86,25.8-11.4
+            c6.53-4.53,9.8-8.8,9.8-12.8c0-2.13-0.4-4.2-1.2-6.2c-0.8-2-1.87-4.06-3.2-6.2c-0.54-0.8-1.4-2.06-2.6-3.8
+            c-1.2-1.73-1.8-3.13-1.8-4.2c0-2.66,2.93-4,8.8-4c4.26,0,7.93,1.8,11,5.4c3.06,3.6,4.6,7.54,4.6,11.8c0,8.54-3.8,16.94-11.4,25.2
+            c-7.6,8.27-18,15-31.2,20.2c-13.2,5.2-27.8,7.8-43.8,7.8c-16.27,0-29.6-0.87-40-2.6c-10.4-1.74-18.27-5.14-23.6-10.2
+            c-6.4-7.2-10.87-19.73-13.4-37.6c-2.54-17.86-4.74-41.73-6.6-71.6c-5.07,1.34-10.74,2.47-17,3.4c-6.27,0.94-11,1.4-14.2,1.4
+            s-5.8-1-7.8-3s-3-4.46-3-7.4c0-1.86,0.33-3.46,1-4.8c0.66-1.33,1.66-2.13,3-2.4c8.8-1.06,15.2-1.73,19.2-2l17.2-2
+            c-1.07-34.4-2.14-62.4-3.2-84c-4,0-7.2,0.14-9.6,0.4l-18.4,0.4c-2.4,0-4.27-0.66-5.6-2c-1.34-1.33-2-2.8-2-4.4
+            c0-6.4,4.26-10.66,12.8-12.8c3.2-0.53,7.26-1.13,12.2-1.8c4.93-0.66,8.2-1,9.8-1c5.06-5.6,10.66-8.4,16.8-8.4
+            c1.06,0,1.93,0.87,2.6,2.6c0.66,1.74,1,3,1,3.8c17.6-0.8,38.53-2.8,62.8-6c16-2.13,40.66-7.2,74-15.2l14.8-3.2c2.66,0,4,1.6,4,4.8
+            C752.06,33.48,749.79,36.28,745.26,38.68z"/>
+        <path class="st0" d="M994.25,166.68c-0.94,2.14-2.2,3.74-3.8,4.8c-1.87,1.6-5.74,3-11.6,4.2c-5.87,1.2-9.87,1.94-12,2.2
+            c2.13,10.14,3.2,15.07,3.2,14.8c1.86,6.67,3.86,15.87,6,27.6c4.8,26.94,9.73,49.87,14.8,68.8c1.33,6.13,2,9.73,2,10.8
+            c0,2.66-1.07,4.93-3.2,6.8c-2.14,1.86-4.67,2.8-7.6,2.8c-2.67,0-5.07-1.4-7.2-4.2c-2.14-2.8-3.6-5.27-4.4-7.4
+            c-2.4-9.07-4.6-19.2-6.6-30.4c-2-11.2-4.34-24.66-7-40.4c-1.07-6.93-2.8-15.53-5.2-25.8c-2.4-10.26-4-17-4.8-20.2
+            c-15.74,2.14-42.8,6.4-81.2,12.8l-23.2,4l-8.4,23.6l-11.2,32c-9.34,29.07-16,51.46-20,67.2c-0.8,3.73-2.4,6.86-4.8,9.4
+            c-2.4,2.53-5.34,3.8-8.8,3.8c-2.94,0-5.4-0.8-7.4-2.4c-2-1.6-3-3.87-3-6.8c0-2.94,1.6-9.14,4.8-18.6c3.2-9.47,5.06-15.14,5.6-17
+            c1.06-2.67,3.2-8.8,6.4-18.4c3.46-10.4,7.93-23,13.4-37.8c5.46-14.8,9.13-24.6,11-29.4c-13.6,3.2-23.74,5.74-30.4,7.6
+            c-10.14,2.67-16.4,4-18.8,4c-2.94,0-5.14-1.13-6.6-3.4c-1.47-2.26-2.2-4.73-2.2-7.4c0-3.2,0.8-5.4,2.4-6.6c1.6-1.2,4.26-2.33,8-3.4
+            c10.13-2.4,20.86-4.8,32.2-7.2c11.33-2.4,19.13-4,23.4-4.8c2.66-7.73,4.66-14.26,6-19.6c1.06-3.46,2.46-7.8,4.2-13
+            c1.73-5.2,3.66-11.66,5.8-19.4l6-20.4c10.13-35.73,16-56.13,17.6-61.2c1.33-3.73,2.6-6.66,3.8-8.8c1.2-2.13,2.86-3.2,5-3.2
+            c5.33,0,10.13,0.8,14.4,2.4c0.53-0.53,1.4-1.66,2.6-3.4c1.2-1.73,2.53-2.93,4-3.6c1.46-0.66,3.4-1,5.8-1
+            c4.8,0,10.33,5.47,16.6,16.4c6.26,10.94,12.33,23.87,18.2,38.8c3.46,8.8,7.86,21.94,13.2,39.4c5.33,17.47,8.8,29,10.4,34.6
+            c4-0.53,7.4-1.26,10.2-2.2c2.8-0.93,4.6-1.53,5.4-1.8c1.33-0.53,2.8-1.46,4.4-2.8c1.6-1.33,3.06-2.33,4.4-3
+            c1.33-0.66,2.8-0.6,4.4,0.2c3.46,1.6,5.2,4.94,5.2,10C995.65,162.55,995.19,164.55,994.25,166.68z M934.85,133.28
+            c-4.27-15.33-8.27-27.8-12-37.4c-3.74-9.86-8.54-20-14.4-30.4c-5.87-10.4-10.8-16.93-14.8-19.6l-4.4,10.4
+            c-5.07,10.14-8.94,19.34-11.6,27.6c-6.4,19.2-16.54,50.94-30.4,95.2l46.8-8l38.4-6l10.8-1.6
+            C941.92,158.68,939.12,148.62,934.85,133.28z"/>
+        <path class="st0" d="M1315.85,270.48c-3.07,2.27-6.47,3.4-10.2,3.4c-3.2,0-5.74-0.2-7.6-0.6c-1.87-0.4-3.2-1.53-4-3.4
+            c-2.4-4-5.2-15.86-8.4-35.6c-3.2-19.73-6.27-42.4-9.2-68c-6.4-78.13-11.34-118-14.8-119.6c-2.94,6.4-7.47,18.47-13.6,36.2
+            c-6.14,17.74-13.2,40.87-21.2,69.4c-8.8,30.67-15.47,51.8-20,63.4c-4.54,11.6-8.54,18.74-12,21.4c-2.14,1.87-4.74,3.67-7.8,5.4
+            c-3.07,1.74-5.67,2.6-7.8,2.6c-2.67,0-4.4-0.33-5.2-1c-0.8-0.66-1.74-2.73-2.8-6.2c-1.07-4-3.6-16.46-7.6-37.4
+            c-4-20.93-7.07-39.8-9.2-56.6l-2.4-16.8c-4.54-34.66-7.6-54-9.2-58c-5.07,4.54-9.87,14.6-14.4,30.2
+            c-4.54,15.6-9.74,37.67-15.6,66.2c-5.6,22.14-12.4,58.14-20.4,108c-0.27,2.94-2.27,5.6-6,8c-3.74,2.4-7.07,3.6-10,3.6
+            c-4.27,0-6.67-4.13-7.2-12.4c-0.27-8.26-2.07-26.13-5.4-53.6c-3.34-27.46-6.34-51.6-9-72.4c-3.74-29.6-8.8-57.06-15.2-82.4
+            c-1.87-8-2.8-12.53-2.8-13.6c0-4,1.93-7.26,5.8-9.8c3.86-2.53,8.06-3.8,12.6-3.8c2.13,0,4.4,8.27,6.8,24.8
+            c2.4,16.54,4.93,37.34,7.6,62.4l1.2,13.2c1.06,8.8,2.26,18,3.6,27.6c5.06,40.8,7.86,66.4,8.4,76.8c5.33-30.93,11.33-62,18-93.2
+            l3.6-17.6c5.86-28.26,12.26-49.66,19.2-64.2c6.93-14.53,15.86-21.8,26.8-21.8c3.46,0,7.33,9,11.6,27c4.26,18,7.6,39,10,63
+            c1.86,17.07,4.26,33.74,7.2,50c2.93,16.27,5.6,27.6,8,34c1.6-4.53,4.86-14.53,9.8-30c4.93-15.46,9.53-30.13,13.8-44
+            c13.06-44.53,26.93-84.4,41.6-119.6c2.66-5.6,5.26-9.66,7.8-12.2c2.53-2.53,7-3.8,13.4-3.8c3.46,0,7.2,15.2,11.2,45.6
+            s7.33,65.6,10,105.6c7.2,56.54,13.73,87.34,19.6,92.4c4,3.47,6,7.2,6,11.2C1320.45,266.15,1318.91,268.22,1315.85,270.48z"/>
+    </g>
+
+    </svg>
+
+        
+    </div>
+        
+    <p></p>
+}
+
+FRENCH{
+     <div class="main-grid">
+
+        <div class="container">
+
+            <div id="img" class="img active">
+                <h2 id="title" class="active">FEMME VERTUEUSE</h2>
+                <a id="but" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Voir Plus
+                </a>
+            </div>
+
+            <div class="cont">
+                <h2>Eloge de la Femme Vertueuse.<span id="icon" class="icon active">&#10084;</span></h2>
+                <div class="textp">
+                    <p>Aleph. Qui est-ce qui trouvera une vaillante femme ? car son 
+                        prix surpasse de beaucoup les perles. Beth. Le coeur de son 
+                        mari s'assure en elle, et il ne manquera point de dépouilles. 
+                        Guimel. Elle lui fait du bien tous les jours de sa vie, et 
+                        jamais du mal. Daleth. Elle cherche de la laine et du lin, 
+                        et elle fait ce qu'elle veut de ses mains. He. Elle est comme 
+                        les navires d'un marchand, elle amène son pain de loin. Vau. 
+                        Elle se lève lorsqu'il est encore nuit, elle distribue la 
+                        nourriture nécessaire à sa maison, et elle donne à ses servantes 
+                        leur tâche. Zajin. </p>
+                    <p>Elle considère un champ, et l'acquiert ; 
+                        et elle plante la vigne du fruit de ses mains. Heth. Elle ceint 
+                        ses reins de force, et fortifie ses bras. Teth. Elle éprouve que 
+                        son trafic est bon ; sa lampe ne s'éteint point la nuit. Jod. 
+                        Elle met ses mains au fuseau, et ses mains tiennent la quenouille. 
+                        Caph. Elle tend sa main à l'affligé, et avance ses mains au 
+                        nécessiteux. Lamed. Elle ne craint point la neige pour sa 
+                        famille, car toute sa famille est vêtue de vêtements doubles. 
+                        Mem. Elle se fait des tours de lit ; le fin lin et l'écarlate 
+                        est ce dont elle s'habille. Nun. Son mari est reconnu aux 
+                        portes, quand il est assis avec les Anciens du pays. Samech.</p>
+                    <p>Elle fait du linge, et le vend ; et elle fait des ceintures, 
+                        qu'elle donne au marchand. Hajin. La force et la magnificence 
+                        est son vêtement, et elle se rit du jour à venir. Pe. Elle ouvre 
+                        sa bouche avec sagesse, et la Loi de la charité est sur sa langue. 
+                        Tsade. Elle contemple le train de sa maison, et ne mange point 
+                        le pain de paresse. Koph. Ses enfants se lèvent, et la disent 
+                        bienheureuse ; son mari aussi, et il la loue, en disant : 
+                        Resch. Plusieurs filles ont été vaillantes ; mais tu les 
+                        surpasses toutes. Scin. La grâce trompe, et la beauté s'évanouit ; 
+                        mais la femme qui craint l'Eternel, sera celle qui sera louée. 
+                        Thau. Donnez-lui des fruits de ses mains, et que ses oeuvres la 
+                        louent aux portes.</p>
+                </div>
+            </div>
+
+            <!-- <div class="box three"></div>
+            <div class="box four"></div> -->
+        </div>
+    
+    </div>
+
+    <script src="main.js"></script>
+}
+
+-------------------------------------------------
+CSS
+
+NEON BUTTON / SHADOWS / CARDS STYLE{
+    /*NEON BUTTON body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #031321;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    a{
+        position: relative;
+        display: inline-block;
+        padding: 15px 30px;
+        color: #2196f3;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+    a:hover{
+        color: #255784;
+        background: #2196f3;
+        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+        transition-delay: 1s;
+    }
+
+    a span{
+        position: absolute;
+        display: block;
+    }
+    a span:nth-child(1){
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg,transparent,#2196f3);
+    }
+    a:hover span:nth-child(1){
+        left: 100%;
+        transition: 1s;
+    }
+
+    a span:nth-child(3){
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg,transparent,#2196f3);
+    }
+    a:hover span:nth-child(3){
+        right: 100%;
+        transition: 1s;
+        transition-delay: 0.5s;
+    }
+
+    a span:nth-child(2){
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg,transparent,#2196f3);
+    }
+    a:hover span:nth-child(2){
+        top: 100%;
+        transition: 1s;
+        transition-delay: 0.25s;
+    }
+
+    a span:nth-child(4){
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg,transparent,#2196f3);
+    }
+    a:hover span:nth-child(4){
+        bottom: 100%;
+        transition: 1s;
+        transition-delay: 0.75s;
+    }*/
+
+    /* SHADOWS
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: rgb(204, 142, 48);
+    }
+
+    .container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .box{
+        position: relative;
+        width: 300px;
+        height: 200px;
+        margin: 40px 0;
+        background: #fff;
+        font-family: 'Inconsolata', monospace;
+        font-size: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(0,0,0,0.1);
+    }
+
+    .container .box.shadow1{
+        box-shadow: -30px 30px 30px rgba(0,0,0,0.3);
+    }
+
+    .container .box.shadow2:before{
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        left: 10%;
+        width: 90%;
+        height: 50px;
+        background: rgba(0,0,0,0.3);
+        transform-origin: left;
+        transform: skewY(5deg);
+        z-index: -1;
+        filter: blur(5px);
+    }
+
+    .container .box.shadow3:before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        height: 30px;
+        background: rgba(0,0,0,0.3);
+        transform-origin: right;
+        transform: skewY(-8deg);
+        z-index: -1;
+        filter: blur(10px);
+    }
+
+    .container .box.shadow3:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        height: 30px;
+        background: rgba(0,0,0,0.3);
+        transform-origin: left;
+        transform: skewY(8deg);
+        z-index: -1;
+        filter: blur(10px);
+    }
+
+    .container .box.shadow4:before{
+        content: '';
+        position: absolute;
+        bottom: -50px;
+        left: 5%;
+        width: 90%;
+        height: 20px;
+        background: rgba(0,0,0,0.3);
+        border-radius: 50%;
+        z-index: -5;
+        filter: blur(10px);
+
+    }
+
+    .container .box.shadow5:before{
+        content: '';
+        position: absolute;
+        bottom: -15%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        background: rgba(0,0,0,0.3);
+        z-index: -5;
+        filter: blur(10px);
+
+    }
+
+    .container .box.shadow6{
+        background: rgb(204, 142, 48);
+        border-radius: 15px;
+        box-shadow: -15px -15px 15px rgba(218, 177, 117, 0.2),
+                    15px 15px 15px rgba(0,0,0,0.1);
+    }
+
+    .container .box.shadow7{
+        background: rgb(204, 142, 48);
+        border-radius: 15px;
+        box-shadow: -15px -15px 15px rgba(228, 190, 132, 0.2),
+                    15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(228, 190, 132, 0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+    }*/
+
+    /* CARDS STYLE
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(315deg, #ff0000, #ffc107);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container{
+        position: relative;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        grid-template-rows: auto;
+        gap: 0 40px;
+    }
+
+    .container .box{
+        position: relative;
+        height: 400px;
+        background: linear-gradient(315deg, #ff0000, #ffc107);;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ff0000;
+    }
+
+    @keyframes filter{
+        form{
+            filter: hue-rotate(0deg);
+        }
+        to{
+            filter: hue-rotate(180deg);
+        }
+    }
+
+    .container .box::before{
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: #fff;
+        transform: skew(2deg, 2deg);
+        z-index: -1;
+    }
+    .container .box:nth-child(1)::before{
+        background: linear-gradient(315deg, #ff0057, #e64a19);   
+    }
+    .container .box:nth-child(2)::before{
+        background: linear-gradient(315deg, #89ff00, #00bcd4);       
+    }
+    .container .box:nth-child(3)::before{
+        background: linear-gradient(315deg, #e91e63, #5d02ff);     
+    }
+
+    .box:hover .box::before{
+        animation: filter 1s ease-in forwards;
+    }
+
+    .container .box::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,.05);
+    pointer-events: none;
+    }
+
+    .content{
+        position: relative;
+        padding: 20px;
+        transform: translateY(40px);
+    }
+
+    .box .content h2{
+        position: absolute;
+        top: -60px;
+        right: 20px;
+        margin: 0;
+        padding: 0;
+        font-size: 7em;
+        color: rgba(255,255,255,.05);
+        transition: 0.5s;
+    }
+
+    .box:hover .content h2{
+        top: -140px;
+        color: rgba(255,255,255,.5);
+    }
+
+    .box .content h3{
+        margin: 0 0 10px;
+        padding: 0;
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .box .content p{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .box .content a{
+        position: relative;
+        margin: 20px 0 0;
+        padding: 10px 20px;
+        text-decoration: none;
+        border: 1px solid #fff;
+        display: inline-block;
+        color: #fff;
+        transition: 0.5s;
+        transform: translateY(-40px);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .box:hover .content a{
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .box .content a:hover{
+        color: #000;
+        background: #fff;
+    } */
+}
+PARALLAX{
+    html{
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        /* min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+        background-image: linear-gradient(315deg, #ff0000, #ffc107);
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        perspective: 1px;
+        transform-style: preserve-3d;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    header{
+        box-sizing: border-box;
+        min-height: 100vh;
+        padding: 30vw 0 5vw;
+        position: relative;
+        transform-style: inherit;
+        width: 100vw;
+    }
+
+    header h1{
+        margin-top: -100px;
+    }
+    header, header::before{
+        background: 50% 50% / cover;
+    }
+
+    header::before{
+        content: '';
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        background-image: url(./Images/04.jpg);
+        background-size: cover;
+        transform-origin: center center 0;
+        transform: translateZ(-1px) scale(2);
+        z-index: -1;
+        max-height: 100vh;
+    }
+
+    header *{
+        font-weight: normal;
+        letter-spacing: 0.2em;
+        text-align: center;
+        margin: 0;
+        padding: 1em 0;
+    }
+
+    main{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2em 15em;
+        background: rgb(59, 59, 59);
+    }
+
+    main p{
+        text-align: justify;
+        line-height: 2em;
+    }
+}
+SHAPES{
+    body{
+        margin: 0;
+        padding: 0;
+        /* min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+        /* background: linear-gradient(315deg, #ff0000, #ffc107); */
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    section{
+        padding: 30vh 0;
+    }
+
+    .icon{
+        background: rgba(0,0,0, .3);
+        color: rgba(0,0,0, .3);
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        font-size: 2em;
+    }
+
+    .one{
+        background: linear-gradient(to bottom, #fd3807 30%, #f1195a, #f1195a);
+        position: relative;
+    }
+
+    .one::after,
+    .one::before{
+        position: absolute;
+        content: '';
+        width: 150px;
+        height: 150px;
+        background: #f1195a;
+        bottom: -2em;
+        z-index: 100;
+        box-shadow: 0px 45px 60px -40px  rgba(0, 0, 0);
+    }
+
+    .one::before{
+        right: 50%;
+        transform: skew(0, 30deg);
+    }
+    .one::after{
+        left: 50%;
+        transform: skew(0, -30deg);
+    }
+
+
+    .two{
+        background: linear-gradient(115deg, #640841, #3980db);
+        margin-bottom: -20vw;
+        position: relative;
+        z-index: 10;
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20vw), 0% 100%);
+    }
+
+    .img{
+        clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%,
+        60% 100%, 60% 80%, 0% 80%);
+    }
+
+    .three{
+        background: linear-gradient(215deg, #12db1c, #0efcfc);
+        position: relative;
+    }
+
+    .polygon{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        background:  rgb(175, 1, 74);
+        /* clip-path: polygon(50% 0, 100% 100%, 100% 100%, 0 100%); */
+        cursor: pointer;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        transition: linear 1s ease-in-out;
+
+    }
+    .polygon:hover{
+        animation: ani1 1.5s ease forwards;
+    }
+
+    @keyframes ani1{
+        from{
+            transform: scale(.5);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+            transform: scale(1);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        }
+    }
+}
+
+STROCK SVG{
+	.wrapper{
+        grid-area: top;
+        display: grid;
+        place-items: center;
+        position: relative;
+        background-image: linear-gradient(315deg, #ff0000, #ffc107);
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    }
+
+    /* .img{
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        box-shadow: 0 15px 40px;
+    } */
+
+    svg{
+        position: absolute;
+        width: 80%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    .st0{
+        fill: #ffffff;
+        stroke:#FFFFFF;
+        stroke-width:3;
+        stroke-miterlimit:10;
+        stroke-dasharray: 2260;
+        opacity: 10;
+        animation: animate 3s cubic-bezier(0,0.23,1,.1);
+    }
+
+    /* * ANIMACIONES */
+
+    @keyframes animate{
+        0%{
+            opacity: 0;
+            fill: none;
+            stroke-dashoffset: 2260;
+        }
+        30%{
+            opacity: 10;
+            fill: none;
+            stroke-dashoffset: 2260;
+        }
+        90%{
+            fill: rgb(255, 255, 255,0);
+        }
+        100%{
+            opacity: 10;
+            fill: rgb(255, 255, 255,1);
+            stroke-dashoffset: 0;
+        }
+    }
+
+    /* @keyframes blur {
+        from{
+            filter: blur(1px);
+        }
+        to{
+            filter: blur(0);
+        }
+    } */
+}
+
+FRENCH{
+    *, *::before, *::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .main-grid{
+        background-image: linear-gradient(120deg, rgb(223, 215, 202), #dfa1c5, rgb(202, 119, 119), #42553a);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: .5fr 5fr .5fr ;
+        grid-template-rows: auto;
+        grid-template-areas: '. container .';
+    }
+
+    .container{
+        grid-area: container;
+        display: grid;
+        grid-template-rows: 30vh 40vh;
+        grid-template-areas: '.'
+                            'cont';
+        margin: 10em 5em;
+        border-radius: 10px;
+        background: linear-gradient(to top, rgb(255, 171, 171),rgb(233, 192, 202));
+        position: relative;
+        box-shadow: 0 30px 70px rgb(49, 0, 0);
+    }
+
+    .container .img{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 55%;
+        left: 0;
+        right: 0;
+
+        border-radius: 10px;
+        background-image: url(./Images/wedding.jpg);
+        background-size: cover;
+        transition: bottom 1000ms ease-in-out 500ms;
+    }
+
+    .img.active{
+        bottom: 0;
+    }
+
+    .img h1{
+        left: 0;
+        right: 10%;
+        position: absolute;
+        background: #c58f7e6b;
+        pointer-events: none;
+        margin: 1.5em 0 0 0;
+        padding-left: 2em;
+
+        font-size: 50px;
+        font-family: 'Times New Roman';
+        color: rgb(255, 255, 255);
+        letter-spacing: .5em;
+        transition: margin 1000ms cubic-bezier(0.15, 1.49, 1,-0.22) 500ms,
+                    background 1000ms ease-in 500ms;
+    }
+
+    .img h1.active{
+        margin: 4em 0 0 0;
+        background: #c58f7ed2;
+    }
+
+    a{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        position: absolute;
+        bottom: .2em;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+        padding: 15px 30px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.753);
+        color: #c58f7e;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        overflow: hidden;
+        transition: 100ms;
+    }
+
+    .img:hover a{
+        transform: scale(1.1) translateX(-50%);
+        bottom: .5em;
+    }
+
+    a:hover{
+        color: #ffffff;
+        background: #c58f7e;
+        box-shadow: 0 0 10px #c58f7e, 0 0 40px #c58f7e, 0 0 80px #c58f7e;
+        transition-delay: 700ms;
+    }
+
+    a span{
+        position: absolute;
+        display: block;
+    }
+    a span:nth-child(1){
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(90deg,transparent,#c58f7e);
+    }
+    a:hover span:nth-child(1){
+        left: 100%;
+        transition: 300ms;
+    }
+
+    a span:nth-child(3){
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(270deg,transparent,#c58f7e);
+    }
+    a:hover span:nth-child(3){
+        right: 100%;
+        transition: 300ms;
+        transition-delay: 250ms;
+    }
+
+    a span:nth-child(2){
+        top: -100%;
+        right: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(180deg,transparent,#c58f7e);
+    }
+    a:hover span:nth-child(2){
+        top: 100%;
+        transition: 300ms;
+        transition-delay: 125ms;
+    }
+
+    a span:nth-child(4){
+        bottom: -100%;
+        left: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(360deg,transparent,#c58f7e);
+    }
+    a:hover span:nth-child(4){
+        bottom: 100%;
+        transition: 300ms;
+        transition-delay: 500ms;
+    }
+
+    .container .cont{
+        grid-area: cont;
+        position: relative;
+        height: 35vh;
+        margin: 2em 4em;
+
+        display: grid;
+        grid-template-areas: 'h2'
+                            'text';
+
+        background: rgb(255, 171, 171);
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        padding: 1em;
+        word-spacing: 2.5px;
+        letter-spacing: 1px;
+        box-shadow: -15px -15px 70px rgb(250, 215, 215),
+                    15px 15px 70px rgba(0, 0, 0, 0.671);
+    }
+    .cont p{
+        font-size: 25px;
+        margin: 1em .8em 0 0;
+        color: rgb(83, 83, 83);
+    }
+
+    .cont h2{
+        grid-area: h2;
+        font-size: 30px;
+        font-weight: bolder;
+        margin: .5em 0;
+        color: rgb(185, 51, 107);
+    }
+
+    .cont .textp{
+        grid-area: text;
+        width: 100%;
+        height: 100%; 
+        overflow-y: auto;
+    }
+
+    .cont h2 span{
+        color: rgb(184, 17, 17);
+        margin: 1em;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .cont h2 span.active{
+        opacity: .2;
+    }
+
+    .cont h2 span:hover{opacity: .5;}
+}
+
+--------------------------------------------------
+
+SOME TEXTS{
+
+    Probervios 31: 10-31 (Frances){
+        Aleph. Qui est-ce qui trouvera une vaillante femme ? car son 
+        prix surpasse de beaucoup les perles. Beth. Le coeur de son 
+        mari s'assure en elle, et il ne manquera point de dépouilles. 
+        Guimel. Elle lui fait du bien tous les jours de sa vie, et 
+        jamais du mal. Daleth. Elle cherche de la laine et du lin, 
+        et elle fait ce qu'elle veut de ses mains. He. Elle est comme 
+        les navires d'un marchand, elle amène son pain de loin. Vau. 
+        Elle se lève lorsqu'il est encore nuit, elle distribue la 
+        nourriture nécessaire à sa maison, et elle donne à ses servantes 
+        leur tâche. Zajin. 
+
+        Elle considère un champ, et l'acquiert ; 
+        et elle plante la vigne du fruit de ses mains. Heth. Elle ceint 
+        ses reins de force, et fortifie ses bras. Teth. Elle éprouve que 
+        son trafic est bon ; sa lampe ne s'éteint point la nuit. Jod. 
+        Elle met ses mains au fuseau, et ses mains tiennent la quenouille. 
+        Caph. Elle tend sa main à l'affligé, et avance ses mains au 
+        nécessiteux. Lamed. Elle ne craint point la neige pour sa 
+        famille, car toute sa famille est vêtue de vêtements doubles. 
+        Mem. Elle se fait des tours de lit ; le fin lin et l'écarlate 
+        est ce dont elle s'habille. Nun. Son mari est reconnu aux 
+        portes, quand il est assis avec les Anciens du pays. Samech. 
+
+        Elle fait du linge, et le vend ; et elle fait des ceintures, 
+        qu'elle donne au marchand. Hajin. La force et la magnificence 
+        est son vêtement, et elle se rit du jour à venir. Pe. Elle ouvre 
+        sa bouche avec sagesse, et la Loi de la charité est sur sa langue. 
+        Tsade. Elle contemple le train de sa maison, et ne mange point 
+        le pain de paresse. Koph. Ses enfants se lèvent, et la disent 
+        bienheureuse ; son mari aussi, et il la loue, en disant : 
+        Resch. Plusieurs filles ont été vaillantes ; mais tu les 
+        surpasses toutes. Scin. La grâce trompe, et la beauté s'évanouit ; 
+        mais la femme qui craint l'Eternel, sera celle qui sera louée. 
+        Thau. Donnez-lui des fruits de ses mains, et que ses oeuvres la 
+        louent aux portes.
+    }
+}

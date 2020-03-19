@@ -1,0 +1,30 @@
+.container2{
+    background: linear-gradient(90deg, #141035, rgb(161, 105, 80), rgb(141, 54, 129), #2B273E, #141035);
+    background-size: 400%;
+    font-family: Khand;
+
+    grid-area: bot;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    letter-spacing: 3px;
+
+    h2{
+        font-weight: bolder; 
+        font-size: 30px; 
+        color: #F49266;
+    }
+    p{
+        padding: 0 20em; 
+        color: rgb(189, 184, 178);
+    }
+    &:hover{
+        animation: animate 8s linear infinite;
+    }
+}
+@import './animations';

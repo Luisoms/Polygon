@@ -1,0 +1,32 @@
+body::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 10px;    /* Tamaño del scroll en horizontal */
+    display: flex;  /* Ocultar scroll */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+body::-webkit-scrollbar-track {
+    background: rgba(16, 8, 63, 0.384);
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+/* body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: #2B273E;
+} */
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(150deg, #ECE25A, #F49266, #FC3F72, #EA5DD7);
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+/* body::-webkit-scrollbar-thumb:hover {
+    background: #EA5DD7;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+} */
+
+/* Cambiamos el fondo cuando esté en active */
+/* body::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+} */

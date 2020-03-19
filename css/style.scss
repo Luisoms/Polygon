@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background: #191337;
+}
+
+/* ! S C R O L L */
+@import './Main/scroll';
+
+/* HEXAGON EFECTS */
+@import './Main/animations';
+
+.main-grid{
+    position: relative;
+    display: grid;
+    place-items: center;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .10fr .50fr .60fr .40fr;
+
+    grid-template-areas: 
+        "top"
+        "nav"
+        "mid"
+        "jun"
+        "bot";
+}
+
+/* SCROLL RULES */
+.pimg1, .pimg2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* PARALLAX 1 TOP */
+.pimg1{
+    position: relative;
+    grid-area: top;
+    height: 100vh;
+    width: 100%;
+    background-image: url('./Images/04.jpg');
+    /* clip-path: polygon(0 0, 100% 0, 100% 70%, 80% 34%, 20% 34%, 0 70%); */
+
+    /* L O G O */
+    .ptext{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+
+        svg{
+            stroke-dasharray: 1200;
+        }
+    }
+}
+
+/*  NAVBAR  NAV*/
+@import './Main/nav';
+
+/*  CONTAINER MID */
+@import './Main/container';
+
+/* PARALLAX 2 JUN */
+.pimg2{
+    grid-area: jun;
+    height: 100%;
+    width: 100%;
+    background-image: url('./Images/08.jpg');
+
+    font-family: Khand;
+    color: antiquewhite;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+    z-index: 10;
+    border-left: 35px solid rgb(233, 87, 213);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.603),
+                0 20px 30px #111133a4;
+
+    span{
+        border: 3px solid antiquewhite; 
+        padding: 10px 20px;
+        }
+                
+}
+
+/* CONTAINER2 BOT */
+@import './Main/container2';
