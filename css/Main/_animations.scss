@@ -105,3 +105,24 @@ section{
         filter: blur(4px)
     }
 }
+
+
+/* LOGO DRAW */
+
+@keyframes lganimate{
+    100%{
+        transition: 5s;
+        fill: #191337d7;
+        stroke-dashoffset: 0;
+    }
+    from{
+        transform: translateY(50%);
+        filter: opacity(.1);
+        filter: brightness(.5);
+    }
+    to{
+        transform: translateY(0);
+        filter: opacity(1);
+        filter: brightness(1);
+    }
+}

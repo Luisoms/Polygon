@@ -53,12 +53,17 @@ body{
 
     /* L O G O */
     .ptext{
+        z-index: 200;
         position: absolute;
-        top: 20%;
-        left: 20%;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 
         svg{
-            stroke-dasharray: 1200;
+            stroke-width: 5;
+            stroke-dasharray: 590;
+            stroke-dashoffset: 590;
+            animation: lganimate 4s ease forwards;
         }
     }
 }

@@ -64,7 +64,7 @@
             box-sizing: border-box;
             background: linear-gradient(90deg, #F49266 , #FC3F72, #ECE25A, #F49266);
             background-size: 400%;
-            clip-path: polygon(100% 0, 100% 50%, 100% 100%, 20% 100%, 0 50%, 20% 0);
+            clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 20% 100%, 0 50%, 20% 0%);
             transition: width 1s ease-in-out;
 
             &:hover{

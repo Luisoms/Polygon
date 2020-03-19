@@ -230,6 +230,56 @@ section .set3 {
           filter: blur(4px);
 }
 
+/* LOGO DRAW */
+@-webkit-keyframes lganimate {
+  100% {
+    -webkit-transition: 5s;
+    transition: 5s;
+    fill: #191337d7;
+    stroke-dashoffset: 0;
+  }
+  from {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    -webkit-filter: opacity(0.1);
+            filter: opacity(0.1);
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-filter: opacity(1);
+            filter: opacity(1);
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+  }
+}
+@keyframes lganimate {
+  100% {
+    -webkit-transition: 5s;
+    transition: 5s;
+    fill: #191337d7;
+    stroke-dashoffset: 0;
+  }
+  from {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    -webkit-filter: opacity(0.1);
+            filter: opacity(0.1);
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-filter: opacity(1);
+            filter: opacity(1);
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+  }
+}
+
 .main-grid {
   position: relative;
   display: -ms-grid;
@@ -264,13 +314,20 @@ section .set3 {
 }
 
 .pimg1 .ptext {
+  z-index: 200;
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .pimg1 .ptext svg {
-  stroke-dasharray: 1200;
+  stroke-width: 5;
+  stroke-dasharray: 590;
+  stroke-dashoffset: 590;
+  -webkit-animation: lganimate 4s ease forwards;
+          animation: lganimate 4s ease forwards;
 }
 
 /*  NAVBAR  NAV*/
@@ -296,6 +353,7 @@ section .set3 {
       grid-template-areas: "ul . btn";
   /* BTN GRADIENT */
   /* HEXAGON EFFECTS */
+  /* LOGO DRAW */
 }
 
 .navbar ul {
@@ -370,8 +428,8 @@ section .set3 {
   background: -webkit-gradient(linear, left top, right top, from(#F49266), color-stop(#FC3F72), color-stop(#ECE25A), to(#F49266));
   background: linear-gradient(90deg, #F49266, #FC3F72, #ECE25A, #F49266);
   background-size: 400%;
-  -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 20% 100%, 0 50%, 20% 0);
-          clip-path: polygon(100% 0, 100% 50%, 100% 100%, 20% 100%, 0 50%, 20% 0);
+  -webkit-clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 20% 100%, 0 50%, 20% 0%);
+          clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 20% 100%, 0 50%, 20% 0%);
   -webkit-transition: width 1s ease-in-out;
   transition: width 1s ease-in-out;
 }
@@ -544,6 +602,31 @@ section .set3 {
           filter: blur(4px);
 }
 
+@keyframes lganimate {
+  100% {
+    -webkit-transition: 5s;
+    transition: 5s;
+    fill: #191337d7;
+    stroke-dashoffset: 0;
+  }
+  from {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    -webkit-filter: opacity(0.1);
+            filter: opacity(0.1);
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-filter: opacity(1);
+            filter: opacity(1);
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+  }
+}
+
 /*  CONTAINER MID */
 .container {
   font-family: Inconsolata;
@@ -578,6 +661,7 @@ section .set3 {
       grid-template-areas: "one two three";
   /* BTN GRADIENT */
   /* HEXAGON EFFECTS */
+  /* LOGO DRAW */
 }
 
 .container .card-grid .card .card.one {
@@ -834,6 +918,31 @@ section .set3 {
           filter: blur(4px);
 }
 
+@keyframes lganimate {
+  100% {
+    -webkit-transition: 5s;
+    transition: 5s;
+    fill: #191337d7;
+    stroke-dashoffset: 0;
+  }
+  from {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    -webkit-filter: opacity(0.1);
+            filter: opacity(0.1);
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-filter: opacity(1);
+            filter: opacity(1);
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+  }
+}
+
 .container .card-grid .card:hover .face.face2 {
   -webkit-transform: translateY(-150px);
           transform: translateY(-150px);
@@ -861,7 +970,7 @@ section .set3 {
       -ms-flex-align: center;
           align-items: center;
   font-size: 50px;
-  z-index: 1;
+  z-index: 10;
   border-left: 35px solid #e957d5;
   -webkit-box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.603), 0 20px 30px #111133a4;
           box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.603), 0 20px 30px #111133a4;
@@ -1048,5 +1157,31 @@ section .set3 {
           transform: scale(0.6) rotateX(180deg);
   -webkit-filter: blur(4px);
           filter: blur(4px);
+}
+
+/* LOGO DRAW */
+@keyframes lganimate {
+  100% {
+    -webkit-transition: 5s;
+    transition: 5s;
+    fill: #191337d7;
+    stroke-dashoffset: 0;
+  }
+  from {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    -webkit-filter: opacity(0.1);
+            filter: opacity(0.1);
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-filter: opacity(1);
+            filter: opacity(1);
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+  }
 }
 /*# sourceMappingURL=style.css.map */
