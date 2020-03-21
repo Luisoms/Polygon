@@ -1,15 +1,13 @@
-html{
-    height: 100%;
-    width: 100%;
+*{
+  margin: 0;
+  padding: 0;
 }
 
 body{
-    margin: 0;
-    padding: 0;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
     background: #191337;
+    box-sizing: border-box;
 }
 
 /* ! S C R O L L */
@@ -21,23 +19,11 @@ body{
 .main-grid{
     position: relative;
     display: grid;
-    place-items: center;
-
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr .10fr .50fr .60fr .40fr;
-
-    grid-template-areas: 
-        "top"
-        "nav"
-        "mid"
-        "jun"
-        "bot";
-}
 
 /* SCROLL RULES */
 .pimg1, .pimg2{
     background-position: center;
-    background-size: cover;
+    background-size: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -45,19 +31,16 @@ body{
 /* PARALLAX 1 TOP */
 .pimg1{
     position: relative;
-    grid-area: top;
     height: 100vh;
     width: 100%;
     background-image: url('./Images/04.jpg');
-    /* clip-path: polygon(0 0, 100% 0, 100% 70%, 80% 34%, 20% 34%, 0 70%); */
 
     /* L O G O */
     .ptext{
         z-index: 200;
         position: absolute;
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        display: flex;
+        top: 0;
 
         svg{
             stroke-width: 5;
@@ -96,10 +79,10 @@ body{
                 0 20px 30px #111133a4;
 
     span{
-        border: 3px solid antiquewhite; 
+        border: 3px solid antiquewhite;
         padding: 10px 20px;
         }
-                
+
 }
 
 /* CONTAINER2 BOT */
